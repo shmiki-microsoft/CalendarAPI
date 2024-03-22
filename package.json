@@ -1,0 +1,16 @@
+{
+  "name": "calendarapi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@holiday-jp/holiday_jp": "^2.4.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment": "^2.30.1"
+  },
+  "main": "src/functions/*.js"
+}
